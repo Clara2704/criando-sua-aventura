@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Exploração Misteriosa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>ínicio da aventura! Você encontra uma estrada bifurcada. Qual caminho você escolhe?</p>
+            <button class="btn-proximo" data-proximo="1">A esquerda</button>
+            <button class="btn-proximo" data-proximo="2">A direita</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/cenario-passo1.png" alt="Chegada na vila">
+            <p>Uau! Você acaba de encontrar uma vila. Você chega à vila. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="3">Conversar com os moradores</button>
+            <button class="btn-proximo" data-proximo="4">Explorar a vila</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo2.png" alt="Entrada da floresta">
+            <p>WOW! Você acaba de entrar na floresta. O que faz?</p>
+            <button class="btn-proximo" data-proximo="5">Procurar por criaturas mágicas</button>
+            <button class="btn-proximo" data-proximo="6">Seguir um caminho secreto</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você conversou bastante com os moradores e eles falaram sobre um tesouro.</p>
+            <button class="btn-proximo" data-proximo="2">Ignorar e sair da vila</button>
+            <button class="btn-proximo" data-proximo="4">Partir em busca do tesouro</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4.png" alt="Item magico">
+            <p>Você encontrou um ítem mágico O que você vai fazer com ele?</p>
+            <button class="btn-proximo" data-proximo="7">Guardar o item</button>
+            <button class="btn-proximo" data-proximo="8">Usar o item</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5.png" alt="Encontrando a fada">
+            <p>Você encontrou uma fada! A fada te oferece ajuda, o que você decide?</p>
+            <button class="btn-proximo" data-proximo="9">Aceitar a ajuda</button>
+            <button class="btn-proximo" data-proximo="10">Recusar e seguir em frente</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6.png" alt="Encontrando o monstro">
+            <p>Oh não! Você encontrou um monstro. E agora?</p>
+            <button class="btn-proximo" data-proximo="11">Lutar contra o monstro</button>
+            <button class="btn-proximo" data-proximo="12">Fugir do monstro</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você ficou muito famoso e respeitado na vila por ter achado o tesouro e decide morar por lá.</p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você acaba de ganhar poderes especiais, que te deixou muito famoso pela vila</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você recebe uma certa proteção da fada e continua a explorar a floresta com segurança, por conta da proteção que você recebeu da fada.</p>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você ignorou a fada! Ela ficou muito chateada e tentou te sabotar pelo resto da sua exploração pela floresta.</p>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Oh ou, você foi derrotado e assassinado pelo monstro!</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Você conseguiu escapar do monstro e saiu vivo da sua exploração pela floresta!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
